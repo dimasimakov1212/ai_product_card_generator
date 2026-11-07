@@ -30,7 +30,7 @@ class ProductInput(BaseModel):
 class ProductCardOutput(BaseModel):
     seo_title: str = Field(..., description="SEO-заголовок до 70 символов")
     seo_description: str = Field(..., description="SEO-описание 800-1200 символов")
-    key_specs: List[str] = Field(..., description="Список ключевых характеристик (до 6)")
+    key_specs: List[str] = Field(..., description="Список ключевых характеристик")
     search_queries: List[str] = Field(..., description="3-5 поисковых запросов")
     commercial_block: str = Field(..., description="Коммерческий блок для менеджера")
     missing_data_warning: str = Field(..., description="Предупреждение о недостающих данных или 'Нет'")
