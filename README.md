@@ -6,7 +6,7 @@ REST API-сервис на FastAPI, который генерирует стру
 
 ```bash
 # 1. Клонировать и перейти в папку
-git clone <repo_url> && cd ai-product-card-generator
+git clone <repo_url> && cd ai_product_card_generator
 
 # 2. Создать виртуальное окружение
 python -m venv venv
